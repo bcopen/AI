@@ -1,0 +1,55 @@
+# 核心依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 数据库
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# 定时任务
+apscheduler>=3.10.0
+
+# HTTP 客户端
+httpx>=0.25.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 通知服务
+# 邮件
+# SMTP 内置支持
+
+# Webhook
+# requests 已包含
+
+# 钉钉
+dingtalk-sdk>=2.0.0
+
+# 企业微信
+wechatpy>=2.0.0
+
+# 工具库
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# 日志
+loguru>=0.7.0
+
+# 测试
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# 可选：Selenium (用于动态页面)
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+
+# 可选：Playwright (更好的动态页面支持)
+# playwright>=1.40.0
+
+# Web 界面
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+openpyxl>=3.1.0

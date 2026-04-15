@@ -1,0 +1,27 @@
+{
+  "name": "web-automation-test-agent",
+  "version": "1.0.0",
+  "description": "Web 自动化测试 Agent - 支持项目管理、测试用例管理、录制测试、测试报告和定时任务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "playwright",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "node-cron": "^4.2.1",
+    "playwright": "^1.59.1",
+    "uuid": "^13.0.0"
+  }
+}

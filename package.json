@@ -1,0 +1,28 @@
+{
+  "name": "playwright-recorder-player",
+  "version": "1.0.0",
+  "description": "Production-ready Web operation recording and playback system based on Playwright",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "record": "node src/index.js record",
+    "play": "node src/index.js play",
+    "test": "node --test"
+  },
+  "keywords": [
+    "playwright",
+    "recorder",
+    "player",
+    "rpa",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
